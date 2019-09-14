@@ -1,0 +1,18 @@
+.table{
+    width: 100%;
+    background: green;
+}
+.table th,.table td{
+     border: 1px solid black;
+ }
+.table tbody tr:nth-child(odd) {
+     background: brown;
+ }
+
+.table tbody tr:nth-child(even) {
+    background: yellow;
+}
+
+.center {
+    background: orangered;
+}
